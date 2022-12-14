@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+h1, h2, h3, h4 {
+	font-family: 'Yeseva One', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+  color: #E3B873;
+
+}
+.Slider {
+   display: flex;
+   background-color: #131313;
+   width: 100%;
+   height: 783px;
+}
+.Slider_info {
+  width: 450px;
+  margin-left: 134px;
+  margin-top: 180px;
+}
+.Slider_info h1 {
+  font-size: 27px;
+  margin-bottom: 34px;
+  width: 250px;
+}
+.Slider_info p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+}
+.slider_photo {
+  width: 680px;
+  margin-left: 50px;
+}
+.nav_slider {
+  display: flex;
+  margin-top: 107px;
+}
+.nav_slider a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+  ;
+  margin-right: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.slider__images {
+  position: absolute;
+  width: 680px;
+  height: 482px;
+  margin-top: 25px;
+}
+.slider__images .image {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 800ms ease;
+}
+
+.slider__images .image.active {
+  opacity: 1;
+}
+.info_city {
+  display: flex;
+  margin-top: 42px;
+}
+.info_city h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.info_city p {
+  font-size: 13px;
+  width: 110px;
+}
+.info_city_1 {
+  margin-right: 40px;
+}
+.info_city_1 p {
+  margin-bottom: 24px;
+}
+.info_city_2 p {
+  margin-bottom: 50px;
+}
+.slider__arrows {
+  display: flex;
+}
+.slider__arrow   {
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+.slider__dots {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 23px;
+}
+.slider__dots-item {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 12px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+
+.slider__dots-item:hover, .slider__dots-item.active {
+  background: #000;
+}
+.nav_slider-item {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav_slider-item:hover, .nav_slider-item.active  {
+  color: #E3B873;
+  border-bottom: 1px solid #E3B873;
+  padding-bottom: 3px
+}
